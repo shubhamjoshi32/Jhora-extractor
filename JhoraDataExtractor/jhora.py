@@ -4,7 +4,7 @@ import csv
 #Global Variables
 processed_list = []
 files_to_be_processed = []
-path = r"C:\\Users\Shubham\Desktop\Astro Jhora"
+path = "C:/Users/Shubham/Desktop/Astro Jhora"
 
 #Validation Check
 def valid_check(filepath):
@@ -40,7 +40,7 @@ def Data_extractor(file):
 
     person_name = file.replace('.jhd','')
     
-    open_file = open(f"{path}\\{file}")
+    open_file = open(f"{path}/{file}")
 
     line = open_file.readlines()
 
