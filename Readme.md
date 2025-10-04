@@ -30,7 +30,7 @@ This tool provides a minimal **GUI interface** to select a folder, validates the
 ---
 
 ## 🛠️ Requirements
-
+- No specific requiremnets to run **`JhoraDataExtractor.exe`** `.exe`
 - **Python 3.8+**
 - Modules:
   ```bash
